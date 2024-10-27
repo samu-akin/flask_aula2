@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
-from flask import Flask, render_tamplate, session, redirect, url_for, flash
+from flask import Flask, render_template, session, redirect, url_for, flash
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'Chave forte'
